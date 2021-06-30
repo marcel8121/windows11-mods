@@ -1,33 +1,33 @@
 <h1 align="center">
   <br>
-  <img src="https://raw.githubusercontent.com/marcel-kraatz/windows11-mods/main/StuckRects3.png">
+  <img src="https://i.pcmag.com/imagery/articles/07byLBF5UaGsFsKtyOsENAg-11.1624559555.fit_lim.png">
   <br>
   Windows 11 modifications
   <br>
 </h1>
 
 <p align="center">
-  <a href="# First Open your registry">Do this first</a>
-  •
-  <a href="# Taskbar position">Taskbar position</a>
-  •
-  <a href="# Taskbar size">Taskbar size</a>
+  Windows 11 Preview is now available for insiders. There are a lot of great changes, but some features are annoying.
+  <br>
+  **NOTE that you are doing this at your own risk. Changing the wrong thing could lead to break your System.**
 </p>
 
-Windows 11 Preview is now available for insiders. There are a lot of great changes, but some features are annoying.
-   
-**NOTE that you are doing this at your own risk. Changing the wrong thing could lead to break your System.**
+<p align="center">
+  <a href="#First">Do this first</a>
+  •
+  <a href="#Taskbar_position">Taskbar position</a>
+  •  
+  <a href="#Taskbar_size">Taskbar size</a>
+  •
+  <a href="#Classic_menu">Old Startmenu</a>
+</p>
  
-  
-  
-# First Open your registry.                            
+# First                            
 
 This will be our friend throughout this Guide.
 You can do that by pressing Windows + R and type regedit
 
-  
-
-# Taskbar position
+# Taskbar_position
 
 1. Navigate to: HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\StuckRects3
     You can copy and paste this in the search bar.  
@@ -40,9 +40,13 @@ You can do that by pressing Windows + R and type regedit
     02 (right)
     03 (bottom) <- default value
 
-
-
-
+<h4>
+  <br>
+  <img src="https://raw.githubusercontent.com/marcel-kraatz/windows11-mods/main/StuckRects3.png">
+  <br>
+  <img src="https://raw.githubusercontent.com/marcel-kraatz/windows11-mods/main/stuckrects.png">
+  <br>
+</h4>
 
 
 Then restart explorer.exe or just restart the PC
@@ -56,7 +60,7 @@ If you have multiple displays and multiple taskbars (why?) then you can change i
 
 
 
-# Taskbar size
+# Taskbar_size
 
 1. Navigate to: HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\
 
@@ -71,7 +75,7 @@ If you have multiple displays and multiple taskbars (why?) then you can change i
 
 Then restart explorer.exe or just restart the PC
 
-# "Classic" Windows 10 Start Menu.
+# Classic_Menu.
 
 1. Navigate to: HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced
 
