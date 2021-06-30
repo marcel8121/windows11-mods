@@ -1,10 +1,21 @@
-# Windows 11 modifications
+<h1 align="center">
+  <br>
+  <img src="https://raw.githubusercontent.com/marcel-kraatz/windows11-mods/main/StuckRects3.png">
+  <br>
+  Windows 11 modifications
+  <br>
+</h1>
+
+<p align="center">
+  <a href="# First Open your registry">Do this first</a>
+  •
+  <a href="# Taskbar position">Taskbar position</a>
+  •
+  <a href="# Taskbar size">Taskbar size</a>
+</p>
 
 Windows 11 Preview is now available for insiders. There are a lot of great changes, but some features are annoying.
-  
-
-**NOTE that you are doing this at your own risk. Changing the wrong thing could lead to break your System.**
- 
+   
 **NOTE that you are doing this at your own risk. Changing the wrong thing could lead to break your System.**
  
   
@@ -28,6 +39,11 @@ You can do that by pressing Windows + R and type regedit
     01 (top)
     02 (right)
     03 (bottom) <- default value
+
+
+
+
+
 
 Then restart explorer.exe or just restart the PC
 
