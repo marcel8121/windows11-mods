@@ -9,9 +9,9 @@ Windows 11 Preview is now available for insiders. There are a lot of great chang
  
   
   
-                            
-                            
-FIRST: Open your registry. This will be our friend throughout this Guide.
+# First Open your registry.                            
+
+This will be our friend throughout this Guide.
 You can do that by pressing Windows + R and type regedit
 
   
