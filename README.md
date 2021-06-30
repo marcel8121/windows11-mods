@@ -20,11 +20,13 @@
   <a href="#classic_menu">Old Startmenu</a>
 </p>
 <p> 
-<a id="#first">Do this first</a>                            
+  
+# #first                         
     This will be our friend throughout this Guide.
     You can do that by pressing Windows + R and type regedit
 </p>
-<a id="#taskbar_position">Taskbar position</a>
+  
+# #taskbar_position
 <p>1. Navigate to: <b>HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\StuckRects3</b></p> 
 <p>You can copy and paste this in the search bar.</p>
 <p>2. Doubleklick "Settings" in the right field.</p>
@@ -67,7 +69,8 @@
 <p>If you have multiple displays and multiple taskbars (why?) then you can change it here:</p>
 <p>(4). <b>HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MMStuckRects3</b></p>
 <p>Repeat the Steps 3 and 4 for each value</p>
-<a id="#taskbar_size">Taskbar size</a>
+  
+# #taskbar_size
 <p>1. Navigate to: <b>HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\</b></p>
 <p>2. Do a quick leftklick in the right field select New -> DWORD-Value (32 bit)</p>
 <p>3. Name this new value <b>TaskbarSi</b></p>
@@ -95,7 +98,8 @@
   </tbody>
 </table>
 <p> Then restart explorer.exe or just restart the PC </p>
-<a id="#classic_menu">Old Startmenu</a>
+  
+# #classic_menu
 <p>1. Navigate to: <b>HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced</b></p>
 <p>2. Do a quick leftklick in the right field select New -> DWORD-Value (32 bit)</p>
 <p>3. Name this value Start_ShowClassicMode and change the value to:</p>
