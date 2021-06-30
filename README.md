@@ -1,17 +1,15 @@
+<!DOCTYPE html>
+<html>
+<body>
+<img align="center" src="https://i.pcmag.com/imagery/articles/07byLBF5UaGsFsKtyOsENAg-11.1624559555.fit_lim.png">
 <h1 align="center">
-  <br>
-  <img src="https://i.pcmag.com/imagery/articles/07byLBF5UaGsFsKtyOsENAg-11.1624559555.fit_lim.png">
-  <br>
-  Windows 11 modifications
-  <br>
+  <p>Windows 11 modifications</p>
 </h1>
 
 <p align="center">
   Windows 11 Preview is now available for insiders. There are a lot of great changes, but some features are annoying.
-  <br>
-  **NOTE that you are doing this at your own risk. Changing the wrong thing could lead to break your System.**
-</p>
-
+  </p>
+  <p align="center">🔷NOTE that you are doing this at your own risk. Changing the wrong thing could lead to break your System.🔷</p>
 <p align="center">
   <a href="#First">Do this first</a>
   •
@@ -21,68 +19,109 @@
   •
   <a href="#Classic_menu">Old Startmenu</a>
 </p>
- 
-# First                            
 
-This will be our friend throughout this Guide.
-You can do that by pressing Windows + R and type regedit
+<p> 
+<h2># First</h2>                            
+    This will be our friend throughout this Guide.
+    You can do that by pressing Windows + R and type regedit
+</p>
 
-# Taskbar_position
-
-1. Navigate to: HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\StuckRects3
-    You can copy and paste this in the search bar.  
-
-2. Doubleklick "Settings" in the right field.
-
-3. In the second row you will change the fifth value to: 
-    00 (left) 
-    01 (top)
-    02 (right)
-    03 (bottom) <- default value
-
-<h4>
+<h2># Taskbar_position</h2>
+<p>1. Navigate to: <b>HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\StuckRects3</b></p> 
+<p>You can copy and paste this in the search bar.</p>
+<p>2. Doubleklick "Settings" in the right field.</p>
+<p> 3. In the second row you will change the fifth value to:</p>
+<table>
+  <thead>
+    <tr>
+      <th>value</th>
+      <th>position</th>
+    </tr>
+   </thead>
+   <tbody>
+     <tr>
+       <td>00</td>
+       <td>left</td>
+     </tr>
+     <tr>
+       <td>01</td>
+       <td>top</td>
+     </tr>
+     <tr>
+       <td>02</td>
+       <td>right</td>
+     </tr>
+     <tr>
+       <td>03</td>
+       <td>bottom</td>
+     </tr>
+  </tbody>
+</table>
+<p> Then restart explorer.exe or just restart the PC </p>
+<p>
   <br>
-  <img src="https://raw.githubusercontent.com/marcel-kraatz/windows11-mods/main/StuckRects3.png">
+  <img width="50%" src="https://raw.githubusercontent.com/marcel-kraatz/windows11-mods/main/StuckRects3.png">
+  <img width="40%" src="https://raw.githubusercontent.com/marcel-kraatz/windows11-mods/main/stuckrects.png">
   <br>
-  <img src="https://raw.githubusercontent.com/marcel-kraatz/windows11-mods/main/stuckrects.png">
-  <br>
-</h4>
+</p>
 
+<b>OPTIONAL</b>
+<p>If you have multiple displays and multiple taskbars (why?) then you can change it here:</p>
+<p>(4). <b>HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MMStuckRects3</b></p>
+<p>Repeat the Steps 3 and 4 for each value</p>
 
-Then restart explorer.exe or just restart the PC
-
-**OPTIONAL**
-If you have multiple displays and multiple taskbars (why?) then you can change it here:
-
-(4). HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MMStuckRects3
-        Repeat the Steps 3 and 4 for each value
-
-
-
-
-# Taskbar_size
-
-1. Navigate to: HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\
-
-2. Do a quick leftklick in the right field select New -> DWORD-Value (32 bit)
-
-3. Name this new value TaskbarSi
-
-4. Then double click the Value and change the value to: 
-    0 (small) 
-    1 (medium)
-    2 (large)
-
-Then restart explorer.exe or just restart the PC
-
-# Classic_Menu.
-
-1. Navigate to: HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced
-
-2. Do a quick leftklick in the right field select New -> DWORD-Value (32 bit)
-
-3. Name this value Start_ShowClassicMode and change the value to:
-    0 (New Windows 11 Menu)
-    1 (Good old Windows 10 Menu) <- I prefer this because i have all my stuff there to keep my desktop clean
-
-Then restart explorer.exe or just restart the PC
+<h2># Taskbar_size</h2>
+<p>1. Navigate to: <b>HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\</b></p>
+<p>2. Do a quick leftklick in the right field select New -> DWORD-Value (32 bit)</p>
+<p>3. Name this new value <b>TaskbarSi</b></p>
+<p>4. Then double click the Value and change the value to:</p> 
+<table>
+  <thead>
+    <tr>
+      <th>value</th>
+      <th>position</th>
+    </tr>
+   </thead>
+   <tbody>
+     <tr>
+       <td>0</td>
+       <td>small</td>
+     </tr>
+     <tr>
+       <td>1</td>
+       <td>medium</td>
+     </tr>
+     <tr>
+       <td>2</td>
+       <td>large</td>
+     </tr>
+  </tbody>
+</table>
+<p> Then restart explorer.exe or just restart the PC </p>
+<h2># Classic_Menu.</h2>
+<p>1. Navigate to: <b>HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced</b></p>
+<p>2. Do a quick leftklick in the right field select New -> DWORD-Value (32 bit)</p>
+<p>3. Name this value Start_ShowClassicMode and change the value to:</p>
+<table>
+<thead>
+<tr>
+<th>value</th>
+<th>position</th>
+</tr>
+</thead>
+    <tbody>
+    <tr>
+        <td>0</td>
+        <td>New Windows 11 Menu</td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Good old Windows 10 Menu</td>
+    </tr>
+    </tbody>
+</table>
+<p>I prefer the old one because i have all my stuff there to keep my desktop clean</p>
+<p>Then restart explorer.exe or just restart the PC</p>
+   
+  </body>
+</html>
