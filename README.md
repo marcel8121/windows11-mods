@@ -29,6 +29,8 @@ You can do that by pressing Windows + R and type regedit
     02 (right)
     03 (bottom) <- default value
 
+Then restart explorer.exe or just restart the PC
+
 **OPTIONAL**
 If you have multiple displays and multiple taskbars (why?) then you can change it here:
 
@@ -51,7 +53,7 @@ If you have multiple displays and multiple taskbars (why?) then you can change i
     1 (medium)
     2 (large)
 
-
+Then restart explorer.exe or just restart the PC
 
 # "Classic" Windows 10 Start Menu.
 
@@ -62,3 +64,5 @@ If you have multiple displays and multiple taskbars (why?) then you can change i
 3. Name this value Start_ShowClassicMode and change the value to:
     0 (New Windows 11 Menu)
     1 (Good old Windows 10 Menu) <- I prefer this because i have all my stuff there to keep my desktop clean
+
+Then restart explorer.exe or just restart the PC
