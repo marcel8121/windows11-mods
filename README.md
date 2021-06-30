@@ -7,12 +7,10 @@ Windows 11 Preview is now available for insiders. There are a lot of great chang
  
 **NOTE that you are doing this at your own risk. Changing the wrong thing could lead to break your System.**
  
-**NOTE that you are doing this at your own risk. Changing the wrong thing could lead to break your System.**
- 
-**NOTE that you are doing this at your own risk. Changing the wrong thing could lead to break your System.**
   
   
-  
+                            
+                            
 FIRST: Open your registry. This will be our friend throughout this Guide.
 You can do that by pressing Windows + R and type regedit
 
