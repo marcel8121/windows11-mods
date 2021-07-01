@@ -19,7 +19,8 @@
   •
   <a href="#classic_menu">Old Startmenu</a>
 </p>
-<p> 
+
+<p>UPDATE: I added reg files. Just pick the one you want, execute it and you are done.</p> 
   
 # #first
 <a id="#first">Do this first</a>
