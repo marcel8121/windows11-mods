@@ -74,7 +74,7 @@
   
 # #taskbar_size
 <a id="#taskbar_size">Taskbar size</a>
-<p>1. Navigate to: <b>HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\</b></p>
+<p>1. Navigate to: <b>HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced</b></p>
 <p>2. Do a quick leftklick in the right field select New -> DWORD-Value (32 bit)</p>
 <p>3. Name this new value <b>TaskbarSi</b></p>
 <p>4. Then double click the Value and change the value to:</p> 
