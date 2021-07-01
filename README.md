@@ -114,7 +114,7 @@
 <thead>
 <tr>
 <th>value</th>
-<th>position</th>
+<th>description</th>
 </tr>
 </thead>
     <tbody>
@@ -144,7 +144,7 @@
 <thead>
 <tr>
 <th>value</th>
-<th>position</th>
+<th>description</th>
 </tr>
 </thead>
     <tbody>
