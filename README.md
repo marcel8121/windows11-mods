@@ -18,6 +18,8 @@
   <a href="#taskbar_size">Taskbar size</a>
   •
   <a href="#classic_menu">Old Startmenu</a>
+  •
+  <a href="#acrylic_blur_logon">Login Blur</a>
 </p>
 
 <p>UPDATE: I added reg files. Just pick the one you want, execute it and you are done.</p> 
@@ -131,3 +133,28 @@
    
   </body>
 </html>
+
+# #acrylic_blur_logon
+<a id="#acrylic_blur_logon">Login Blur</a>
+<p>1. Navigate to: <b>HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\System</b></p>
+<p>2. Do a quick rightklick in the right field select New -> DWORD-Value (32 bit)</p>
+<p>3. Name this value DisableAcrylicBackgroundOnLogon and change the value to:</p>
+
+<table>
+<thead>
+<tr>
+<th>value</th>
+<th>position</th>
+</tr>
+</thead>
+    <tbody>
+    <tr>
+        <td>1</td>
+        <td>Disable</td>
+    </tr>
+    <tr>
+        <td>Delete "DisableAcrylicBackgroundOnLogon"</td>
+        <td>Enable</td>
+    </tr>
+    </tbody>
+</table>
